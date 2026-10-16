@@ -1,0 +1,34 @@
+{
+  "id": "now-playing",
+  "displayName": "Now Playing",
+  "description": "Play, pause, and skip Spotify or Apple Music tracks from a small player in the bb sidebar footer. The player shows the current track with album art, a seek bar, shuffle, repeat, and volume. By default it follows the app that is playing, and a setting locks it to one app. The bb music command gives terminals and agents the same controls. Requires macOS on the Mac that runs the bb server, and the Spotify desktop app for Spotify; macOS asks once for permission to control each app.",
+  "icon": {
+    "url": "./icons/now-playing-50a667ca.svg"
+  },
+  "screenshots": [
+    "./screenshots/now-playing/player.png"
+  ],
+  "overview": "./overview/now-playing.md",
+  "tags": [
+    "spotify",
+    "apple-music",
+    "music",
+    "media-player",
+    "playback",
+    "audio",
+    "macos",
+    "sidebar"
+  ],
+  "author": {
+    "name": "Chris Abra",
+    "github": "chrisabra-co",
+    "url": "https://github.com/chrisabra-co"
+  },
+  "category": "utilities",
+  "source": {
+    "git": {
+      "url": "https://github.com/chrisabra-co/bb-plugin-now-playing.git",
+      "range": "^0.2.0"
+    }
+  }
+}
