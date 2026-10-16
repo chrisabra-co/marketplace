@@ -6,7 +6,8 @@
     "url": "./icons/now-playing-50a667ca.svg"
   },
   "screenshots": [
-    "./screenshots/now-playing/player.png"
+    "./screenshots/now-playing/spotify.png",
+    "./screenshots/now-playing/apple-music.png"
   ],
   "overview": "./overview/now-playing.md",
   "tags": [
